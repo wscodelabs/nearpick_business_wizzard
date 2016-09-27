@@ -1,0 +1,45 @@
+/* CSS declarations go here */
+.full-height{
+    height:100vh;
+}
+
+input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 1em;
+    width: calc(100% - 2em);
+    vertical-align: top;
+}
+
+.big-input{
+    height: 66px;
+    border: 2px inset;
+    font-size: 2em;
+    padding-left: 10px;
+    margin-top: 30%;
+}
+
+.box{
+    padding: 5px;
+    margin-top: 15px;
+    height: 149px;
+    cursor: pointer;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.61);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.61);
+}
+
+.box:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.91);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.91);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.91);
+}
+
+.category-icon-size{
+    font-size: 2.6em;
+}
+.selected_category{
+    border: 2px #009688 solid;
+}
